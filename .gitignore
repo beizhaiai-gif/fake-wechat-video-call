@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Expo / Metro
+.expo/
+.expo-shared/
+
+# Native build outputs
+android/.gradle/
+android/app/build/
+android/build/
+android/.cxx/
+android/local.properties
+*.keystore
+*.jks
+
+# Gradle
+.gradle/
+
+# Logs
+*.log
+buildlogs.txt
+
+# Env / local config
+.env
+.env.local
+.npmrc
+
+# Misc build artifacts & analysis scripts
+*.mjs
+gq.json
+gq2.json
+list.log
+build_*.log
+AGENTS.md
+CLAUDE.md
+eas.json
+
+# Local build scripts & notes (not part of the published source)
+*.sh
+*.py
+build_log*
+PROJECT.md
+RUN.md
+
+# OS
+.DS_Store
+Thumbs.db
