@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "仿真视频电话",
+    "slug": "simulation-video-call",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.beizhai.simulationvideocall",
+      "minSdkVersion": 24,
+      "mavenRepos": [
+        "https://maven.aliyun.com/repository/public",
+        "https://maven.arthenica.com/artifactory/ffmpeg-kit-android"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#E6F4FE"
+      },
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "用于拍摄模拟视频电话短视频素材",
+          "recordAudioAndroid": true
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "301c6b09-a56f-423c-9401-e05361b5b66f"
+      }
+    },
+    "owner": "beizhai"
+  }
+}
